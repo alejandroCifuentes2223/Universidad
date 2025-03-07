@@ -11,4 +11,8 @@ graph TD;
     G --> H;
     H --> I[Pruebas con la PCB, detección de datos y procesamiento de frecuencias cerebrales]
     I --> J[Analisis de datos mediante software de procesamiento de señales];
+    J --> K[¿Problemas?];
+    K -- Si --> L[Consulta con el tutor, investigación de posibles soluciones y resolución de los inconvenientes];
+    K -- No --> M[Optimización del diseño y nuevamente pruebas];
+
 
