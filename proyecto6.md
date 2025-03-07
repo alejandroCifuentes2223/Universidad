@@ -4,4 +4,10 @@ graph TD;
     A --> C[Investigación de Componentes Relacionados];
     B --> D[Selección de Componentes];
     C --> D;
+    D --> E[Diseño de PCB en software EAGLE];
+    E --> F[¿Problemas?];
+    F -- Si --> G[Consulta con el tutor y rediseño de la PCB];
+    F -- No --> H[Fabricación de la PCB e implementación de los componentes en la misma];
+    G --> H;
+
 
