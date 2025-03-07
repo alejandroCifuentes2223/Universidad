@@ -1,6 +1,0 @@
-```mermaid
-graph TD;
-    A[Inicio] --> B[Proceso 1];
-    B --> C[Decisión];
-    C -- Sí --> D[Proceso 2];
-    C -- No --> E[Fin];
