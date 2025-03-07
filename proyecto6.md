@@ -9,5 +9,6 @@ graph TD;
     F -- Si --> G[Consulta con el tutor y rediseño de la PCB];
     F -- No --> H[Fabricación de la PCB e implementación de los componentes en la misma];
     G --> H;
-
+    H --> I[Pruebas con la PCB, detección de datos y procesamiento de frecuencias cerebrales]
+    I --> J[Analisis de datos mediante software de procesamiento de señales];
 
